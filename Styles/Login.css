@@ -1,0 +1,52 @@
+* {
+    background-image: url(/Img/WhatsApp\ Image\ 2026-01-15\ at\ 1.30.56\ PM.jpeg);
+    width: auto;
+    height: auto;
+}
+
+.ContenedorP {
+
+    display: flex;
+    padding-bottom: 200px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+    padding-top: 5px;
+    height: 450px;
+    margin-top: 40px;
+    border-color: 1px black solid;
+    border-radius: 10px;
+background-image: url(/Img/WhatsApp\ Image\ 2026-01-15\ at\ 1.30.56\ PM.jpeg);
+    border: 1px solid;
+    width: 50%;
+}
+
+.ContenedorP .Titulo {
+
+    margin-top: 200px;
+    background-color: transparent;
+}
+
+.Credenciales {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-color: black;
+    border: 2px solid;
+    height: 60%;
+    background-color: rgb(83, 83, 83);
+    border-radius: 18px;
+    box-shadow: 2px 2px 10px gray;
+    margin-top: 70px;
+    padding: 8px;
+    width: 50%;
+}
+
+.Credenciales input, .Credenciales button {
+
+    
+    margin: 10px;
+    height: 30px;
+}
